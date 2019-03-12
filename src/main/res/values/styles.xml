@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string-array name = "country_name">
+        <item>Zahid Hasssan</item>
+        <item>Rakib</item>
+        <item>Sumon</item>
+        <item>Tushar</item>
+        <item>Jwel</item>
+        <item>Alamin</item>
+        <item>Rumpa</item>
+        <item>Oishee</item>
+        <item>Suma</item>
+
+    </string-array>
+    <string-array name = "country_desc">
+        <item>Intern Engineer</item>
+        <item>Intern Engineer</item>
+        <item>Intern Engineer</item>
+        <item>Intern Engineer</item>
+        <item>Intern Engineer</item>
+        <item>Intern Engineer </item>
+        <item>Intern Engineer</item>
+        <item>Intern Engineer</item>
+        <item>Intern Engineer</item>
+    </string-array>
+</resources>

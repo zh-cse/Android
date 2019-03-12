@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8sp"
+    android:layout_margin="5sp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="12sp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imgIcon"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/hello"
+                    android:textColor="@color/colorAccentPressed"
+                    android:textStyle="bold|italic"
+                    android:text="Name:"
+                    android:fontFamily="sans-serif-thin"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="22sp"
+                    android:paddingLeft="10sp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/txtName"
+                    android:layout_toRightOf="@+id/hello"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/Des"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/colorAccentPressed"
+                    android:text="Designation:"
+                    android:fontFamily="sans-serif-thin"
+                    android:textSize="25sp"
+                    android:layout_below="@+id/hello"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/txtName"
+                    android:textSize="22sp"
+                    android:textColor="#000000"
+                    android:paddingLeft="10sp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_toRightOf="@+id/Des"
+                    android:id="@+id/txtdesig"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/Team"
+                    android:text="Team:"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/colorAccentPressed"
+                    android:textStyle="bold|italic"
+                    android:textSize="25sp"
+                    android:layout_below="@+id/Des"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_below="@id/txtdesig"
+                    android:textSize="22sp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="10sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_toRightOf="@+id/Team"
+                    android:id="@+id/txtteam"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
